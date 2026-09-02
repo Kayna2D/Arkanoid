@@ -1093,13 +1093,15 @@ MonoBehaviour:
   - {fileID: 7394741051548735992, guid: e6af20da2bc8d0246b6d16d74c4b30f8, type: 3}
   - {fileID: 3167513617866551762, guid: a0d96f7e69005dd408fe9fe2c8b09f2e, type: 3}
   - {fileID: 2130496224287116988, guid: 5fa179d8d77cc714fa0a590949e01c31, type: 3}
-  columns: 10
-  rows: 6
+  columns: 1
+  rows: 1
   brickWidth: 0.64
   brickHeight: 0.32
   spacingX: 0
   spacingY: 0
+  pattern: 0
   startY: 4
+  hitsToDestroy: 1
 --- !u!4 &1636117347
 Transform:
   m_ObjectHideFlags: 0

@@ -28,8 +28,14 @@ public class BallController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Brick"))
         {
-            FindFirstObjectByType<GameManager>().AdicionarPontos();
-            Destroy(collision.gameObject);
+            Brick brick = collision.gameObject.GetComponent<Brick>();
+
+            if (brick != null)
+            {
+                brick.TakeHit();
+
+                FindFirstObjectByType<GameManager>().AdicionarPontos();
+            }
         }
     }
 }
